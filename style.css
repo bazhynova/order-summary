@@ -87,6 +87,10 @@ h2 {
 .music-text p {
     text-align: left;
 }
+.text p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .icon {
     margin-right: 17px;
 }
@@ -116,7 +120,7 @@ h2 {
     margin-bottom: 0;
     display: block;
     text-align: center;
-    width: 354px;
+    max-width: 354px;
     margin-bottom: 30px;
     transition-duration: 100ms;
     transition-delay: 0.3s;
@@ -161,9 +165,17 @@ h2 {
     }
     .text p {
         max-width: 270px;
-        margin-left: 0;
-        margin-right: 0;
         margin: 0 auto;
+        margin-right: 15px;
+        margin-left: 15px;
         margin-bottom: 25px;
+    }
+    .button {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .music {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }
